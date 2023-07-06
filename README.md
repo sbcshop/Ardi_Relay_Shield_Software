@@ -51,9 +51,9 @@ Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
    Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Schematic](https://github.com/sbcshop/Ardi_Relay_Shield_Hardware/blob/main/Design%20Data/SCH%204CH%20Relay%20Shield.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Ardi_Relay_Shield_Hardware/)
+  * [Step File](https://github.com/sbcshop/Ardi_Relay_Shield_Hardware/blob/main/Mechanical%20Data/STEP%204CH%20Relay%20Shield.step)
 
 
 ## Related Products
