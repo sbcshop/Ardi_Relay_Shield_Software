@@ -32,8 +32,30 @@ This github provides getting started guide and other working details for Ardi Re
 - (2) Relay ON/OFF status LED
 
 #### Interfacing Details
-RL_1, RL_2, RL_3 & RL_4 relay pins are directly connected with Arduino UNO Digital pin number 4-7 when mounted.
-Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
+
+When Relay shield mounted on Arduino Uno, 
+|Relay shield | Arduino UNO| 
+|---|---|
+| RL_1 | D4 | 
+| RL_2 | D5 | 
+| RL_3 | D6 | 
+| RL_4 | D7 |G
+
+When Relay shield mounted on Ardi32, 
+|Relay shield | Ardi32 | 
+|---|---|
+| RL_1 | IO41 | 
+| RL_2 | IO2 | 
+| RL_3 | IO9 | 
+| RL_4 | IO14 |
+
+When Relay shield mounted on ArdiPi, 
+|Relay shield | ArdiPi | 
+|---|---|
+| RL_1 | GP4 | 
+| RL_2 | GP3 | 
+| RL_3 | GP11 | 
+| RL_4 | GP10 |
 
 - COM - Common pin
 - NC - Normally Closed, will be connected with COM when RELAY is OFF i.e. when not triggered
