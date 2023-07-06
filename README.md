@@ -40,7 +40,7 @@ This github provides getting started guide and other working details for Ardi Re
 RL_1, RL_2, RL_3 & RL_4 relay pins are directly connected with Arduino UNO Digital pin number 4-7 when mounted.
 Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
 
-### Warning: When working with HIGH Voltage AC, take precuation improper handling may be life threatening. So, suggested to used under experts supervision.
+### Warning: Take precautions when working with HIGH VOLTAGE AC. Improper handling could result in fatality. As a result, it is advised to use under the supervision of experts.
    
 ### Example Codes
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
