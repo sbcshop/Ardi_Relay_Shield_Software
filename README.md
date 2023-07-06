@@ -36,26 +36,26 @@ This github provides getting started guide and other working details for Ardi Re
 When Relay shield mounted on Arduino Uno, 
 |Relay shield | Arduino UNO| 
 |---|---|
-| RL_1 | D4 | 
-| RL_2 | D5 | 
-| RL_3 | D6 | 
-| RL_4 | D7 |G
+| RL1 | D4 | 
+| RL2 | D5 | 
+| RL3 | D6 | 
+| RL4 | D7 |G
 
 When Relay shield mounted on Ardi32, 
 |Relay shield | Ardi32 | 
 |---|---|
-| RL_1 | IO41 | 
-| RL_2 | IO2 | 
-| RL_3 | IO9 | 
-| RL_4 | IO14 |
+| RL1 | IO41 | 
+| RL2 | IO2 | 
+| RL3 | IO9 | 
+| RL4 | IO14 |
 
 When Relay shield mounted on ArdiPi, 
 |Relay shield | ArdiPi | 
 |---|---|
-| RL_1 | GP4 | 
-| RL_2 | GP3 | 
-| RL_3 | GP11 | 
-| RL_4 | GP10 |
+| RL1 | GP4 | 
+| RL2 | GP3 | 
+| RL3 | GP11 | 
+| RL4 | GP10 |
 
 - COM - Common pin
 - NC - Normally Closed, will be connected with COM when RELAY is OFF i.e. when not triggered
