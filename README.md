@@ -44,9 +44,9 @@ Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
    
 ### Example Codes
    Also, sample codes are available for Ardi Relay shields
-   - [Ardi Relay shield for UNO]() 
-   - [Ardi Relay shield for Ardi32]() 
-   - [Ardi Relay shield for ArdiPi]()
+   - [Ardi Relay shield for UNO](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/ArduinoUno_relay_shield_interfacing) 
+   - [Ardi Relay shield for Ardi32](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/Ardi32_relay_shield_interfacing) 
+   - [Ardi Relay shield for ArdiPi](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/ArdiPi_relay_shield_interfacing)
    
    Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
