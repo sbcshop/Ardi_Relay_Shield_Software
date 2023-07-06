@@ -14,9 +14,8 @@ This github provides getting started guide and other working details for Ardi Re
 - Mounts directly onto your ArdiPi, Ardi32, and Arduino compatible boards
 
 ### Specifications:
-- Relay Contact Rating: 10A 120VAC/24VDC 7A240VAC
 - Max Switching Voltage : 250VAC/30VDC
-- Max Switching Current: 15A
+- Max Switching Current: 7A/10A
 - Max Switching Power: 2770VA/240W
 - Frequency: 1Hz
 - Initial Contact Resistance: 50mΩMax at6VDC 1A
