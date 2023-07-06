@@ -42,7 +42,7 @@ Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
 ### Warning: Take precautions when working with HIGH VOLTAGE AC. Improper handling could result in fatality. As a result, it is advised to use under the supervision of experts.
    
 ### Example Codes
-   Also, sample codes are available for Ardi Relay shields
+   Also, sample codes are available for Ardi Relay shield
    - [Ardi Relay shield for UNO](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/ArduinoUno_relay_shield_interfacing) 
    - [Ardi Relay shield for Ardi32](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/Ardi32_relay_shield_interfacing) 
    - [Ardi Relay shield for ArdiPi](https://github.com/sbcshop/Ardi_Relay_Shield_Software/tree/main/examples/ArdiPi_relay_shield_interfacing)
