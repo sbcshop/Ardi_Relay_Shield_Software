@@ -33,28 +33,21 @@ This github provides getting started guide and other working details for Ardi Re
 - (2) Relay ON/OFF status LED
 
 #### Interfacing Details
+RL_1, RL_2, RL_3 & RL_4 relay pins are directly connected with Arduino UNO Digital pin number 4-7 when mounted.
+Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
+
 - COM - Common pin
 - NC - Normally Closed, will be connected with COM when RELAY is OFF i.e. when not triggered
 - NO - Normally Open, will be connected with COM when RELAY switched ON i.e when triggered
 
-RL_1, RL_2, RL_3 & RL_4 relay pins are directly connected with Arduino UNO Digital pin number 4-7 when mounted.
-Similarly when mounted on Ardi32 it will used IO 41, 2, 9 and 14 pins
-
 ### Warning: Take precautions when working with HIGH VOLTAGE AC. Improper handling could result in fatality. As a result, it is advised to use under the supervision of experts.
    
 ### Example Codes
-   Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
-   In [example](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
-   - [Buzzer](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/BuzzerDemo.py) : code to test onboard Buzzer
-   - [SD card](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/sdcardDemo.py) : code to test onboard micro SD card interfacing
-   
-   Also, sample codes are available for ArdiPi shields
-   - [Ardi Relay shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
-   - [Ardi RFID shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
-   - [Ardi Display shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/display_shield_Demo.py) : testing of display and programmable buttons
-   - [Ardi UHF shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/uhf_shield_demo.py) : testing onboard UHF module , buzzer and display unit of shield. Here you will have to add [ssd1306](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/ssd1306.py) oled display and [uhf](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/uhf.py) module related library file
-   
-   Using this sample code as a guide, you can modify, build, and share codes!!  
+   Also, sample codes are available for Ardi Relay shields
+   - [Ardi Relay shield for UNO]() 
+   - [Ardi Relay shield for Ardi32]() 
+   - [Ardi Relay shield for ArdiPi]()
+   Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
 ## Resources
   * [Schematic]()
